@@ -14,6 +14,7 @@ header{
 chamada{
     background:rgb(12,139,67);
     padding-bottom: 80px;
+    padding-top: 80px;
     display:flex;
     justify-content:center;
 }
@@ -23,9 +24,12 @@ chamada-texto{
 }
 
 h1{
-    font-size: 20px;
+    font-size: 40px;
 }
 
+p{
+    font-size: 20;
+}
 categoria-videos{
     display: flex;
     overflow-x: auto;
@@ -33,14 +37,10 @@ categoria-videos{
 }
 
 categoria{
-    padding-left:20px
-    padding-right:20px
-    margin-bottom 100px;
-}
-
-catgorias-videos img{
-    opacity: 0,5;
-    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 categoria-videos img:hover{
